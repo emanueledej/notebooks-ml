@@ -20,6 +20,8 @@ tensorflow = "*"
 keras = "*"
 seaborn = "*"
 dateparser = "*"
+nbdime = "*"
+nbstripout = "*"
 
 [dev-packages]
 

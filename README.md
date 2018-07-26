@@ -34,7 +34,23 @@ E.g.: `[project] Add raw data`.
 brew install node
 pip install pipenv
 pipenv install
+```
 
+Config [notebooks diff](https://nbdime.readthedocs.io/en/stable/) for git:
+
+```sh
+pipenv run nbdime config-git --enable --global
+```
+
+Or use the web ui:
+
+```sh
+nbdiff-web [<commit> [<commit>]] [<path>]
+```
+
+Config spaCy models:
+
+```sh
 pipenv run python -m spacy download en_core_web_md
 pipenv run python -m spacy link en_core_web_md en
 
