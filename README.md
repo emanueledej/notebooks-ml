@@ -1,5 +1,7 @@
 # Notebooks
 
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/catolicasc-datascience/notebooks-ml/master)
+
 ## Contributing
 
 When adding commits to a project, add the name of the project in the beginning of the commit message.
